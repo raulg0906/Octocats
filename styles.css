@@ -1,0 +1,54 @@
+.octocat > a img {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 0px;
+
+
+}
+.octodex {
+    display: flex;
+   justify-content: center;
+   justify-content: flex-start;
+   flex-wrap: wrap
+
+}
+
+.authors img {
+    width:20px;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: none;
+}
+.image-caption {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.image-footer {
+    display: flex;
+}
+
+span {
+    margin: 5px;
+
+}
+.image-number:before{ content: "#"    
+}
+.octocat{
+    border-bottom: solid lightgray;
+    border-bottom-width: 1px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.image-number{ color: lightgray};
